@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" role="img" aria-label="Printed blue Reception board">
-  <!-- INTERIM ART (Quiz 2) -->
-  <line x1="40" y1="0" x2="40" y2="12" stroke="#0e1a4f" stroke-width="3"/><line x1="120" y1="0" x2="120" y2="12" stroke="#0e1a4f" stroke-width="3"/>
-  <rect x="6" y="12" width="148" height="50" rx="6" fill="#3c59f6" stroke="#0e1a4f" stroke-width="3"/>
-  <text x="80" y="45" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">RECEPTION</text>
-</svg>
