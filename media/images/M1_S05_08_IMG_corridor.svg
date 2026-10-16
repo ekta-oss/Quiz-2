@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-label="A ground-floor institute corridor: whitewashed walls with a green band, three wooden doors and a ceiling fan">
+  <!-- INTERIM ART (Quiz 2 Q4): corridor background; the four signs are placed on it by the app as buttons. -->
+  <rect width="800" height="400" fill="#f4efe4"/>
+  <!-- ceiling -->
+  <rect width="800" height="40" fill="#e7dfcf"/>
+  <!-- ceiling fan -->
+  <g stroke="#4b4f5c" stroke-width="3" stroke-linecap="round">
+    <line x1="210" y1="0" x2="210" y2="22"/>
+    <ellipse cx="210" cy="26" rx="10" ry="5" fill="#6b7080"/>
+    <path d="M200 26 L150 34 M220 26 L270 34" stroke-width="5"/>
+  </g>
+  <!-- green painted band at the bottom of the walls -->
+  <rect y="300" width="800" height="62" fill="#7aa86d"/>
+  <rect y="298" width="800" height="4" fill="#5d8c52"/>
+  <!-- floor -->
+  <rect y="362" width="800" height="38" fill="#c9b99c"/>
+  <path d="M0 380 H800" stroke="#b8a685" stroke-width="2"/>
+  <!-- three wooden doors -->
+  <g stroke="#4b2e17" stroke-width="3">
+    <rect x="70" y="130" width="120" height="232" fill="#9b6a3f"/>
+    <rect x="340" y="130" width="120" height="232" fill="#9b6a3f"/>
+    <rect x="570" y="130" width="120" height="232" fill="#9b6a3f"/>
+  </g>
+  <g fill="#e1b866" stroke="#4b2e17" stroke-width="2">
+    <circle cx="176" cy="250" r="6"/><circle cx="446" cy="250" r="6"/><circle cx="676" cy="250" r="6"/>
+  </g>
+  <g fill="none" stroke="#7a4d2a" stroke-width="2">
+    <rect x="86" y="150" width="88" height="80"/><rect x="86" y="250" width="88" height="94"/>
+    <rect x="356" y="150" width="88" height="80"/><rect x="356" y="250" width="88" height="94"/>
+    <rect x="586" y="150" width="88" height="80"/><rect x="586" y="250" width="88" height="94"/>
+  </g>
+</svg>

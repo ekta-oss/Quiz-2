@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 112" role="img" aria-label="A hand-painted wooden board. The number has a very faint, thin first digit.">
+  <!-- INTERIM ART (Quiz 2): hand-painted wooden room board -->
+  <rect x="5" y="5" width="160" height="102" rx="6" fill="#8a5a33" stroke="#4b2e17" stroke-width="3"/>
+  <path d="M12 30 Q60 26 158 32 M12 80 Q80 76 158 84" stroke="#7a4d2a" stroke-width="2" fill="none"/>
+  <text x="14" y="86" transform="rotate(-3 50 80)" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#fbf2e2">Room</text>
+  <path d="M120 62 Q133 44 145 60 Q149 72 122 96 L149 96" fill="none" stroke="#fbf2e2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M105 52 L105 96" fill="none" stroke="#f6e7cf" stroke-width="2.8" opacity="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
