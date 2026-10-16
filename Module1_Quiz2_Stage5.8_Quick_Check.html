@@ -187,6 +187,8 @@ aside .rail-label { font-size: 0.75rem; font-weight: 600; text-transform: upperc
   ];
   var UI = { right: "Right!", wrong: "Not quite — try again.", drop: "Drop the meaning here", note: "A quick self-check. Not graded — it is not the Module Assessment." };
   var MAX_MIN = 10;
+  // Timer switched off for now (client feedback, 16 Oct 2026): no countdown and no time limit. Set to true to bring both back.
+  var TIMER_ON = false;
 
   // ---------- Record of each attempt (kept in this browser only; never required to work) ----------
   var KEY = "m1s1.progress.v1", LOG = "5.8.quiz-log";
@@ -207,7 +209,7 @@ aside .rail-label { font-size: 0.75rem; font-weight: 600; text-transform: upperc
   function fresh(reason) {
     st = { q: 0, sel: null, slots: {}, result: null, tries: 0, done: false, end: false,
       attempt: { attemptId: Date.now() + "-" + Math.random().toString(36).slice(2, 7), startedAt: new Date().toISOString(), restartReason: reason || null, items: [], finished: false } };
-    startTimer(MAX_MIN * 60000 / timescale);
+    if (TIMER_ON) startTimer(MAX_MIN * 60000 / timescale); else stopTimer();
   }
   function startTimer(ms) {
     clearTimeout(timer); clearInterval(ticker); deadline = Date.now() + ms; timer = setTimeout(timeUp, ms);

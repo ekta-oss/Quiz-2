@@ -18,7 +18,7 @@ GitHub Pages also works: Settings → Pages → deploy from the `main` branch, r
 - Eight questions, one per screen, with progress dots.
 - Feedback comes straight away. A right answer shows a tick and a one-line reason; a wrong answer shows an amber card, and the learner tries again. There is no negative marking.
 - It is an ungraded self-check, not the Module Assessment.
-- A countdown in the top bar shows the 10 minutes left; there is no Pause button. When the time runs out, the quiz starts again from the first question.
+- There is no timer and no time limit for now ("About 10 minutes" is only a guide), and no Pause button. To bring the 10-minute countdown back, set `TIMER_ON` to `true` in the template.
 - The layout is compact, so each question fits on a laptop screen and a phone needs little or no scrolling.
 - Each attempt is recorded in the browser as `5.8.quiz-log` (tries per question). The quiz still works where browser storage is blocked.
 - Meanings dragged into a box can always be dragged back, or tapped to send them back.
